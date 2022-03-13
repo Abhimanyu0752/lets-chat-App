@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
+body {
+    overflow: hidden;
+
+    font-family: 'League Spartan', sans-serif !important;
+
+    background-color: white;
+    color: white;
+}
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+nav {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: space-between !important;
+    height:80px !important;
+    font-size: 24px !important;
+    width:100vw !important;
+    padding:20px !important;
+    background-color: #4D77FF;
+    margin-bottom: 4rem;
+}
+
+#left-nav{
+    font-size: 35px;
+}
+#right-nav {
+    display: flex;
+    margin-right: 30px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+h1{
+  color: #4D77FF;
+}
+
+section{
+    width: 380px;
+    margin: 0 auto;
+}
+
+#chat-box{
+    color: black;
+    height: 50vh;
+    border: 2px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #EFEFEF;
+
+}
+
+#inp-msg{
+  background-color: #EFEFEF;
+}
+
+ul{
+    list-style: none;
+}
+
+
+li{
+    border-radius: 8px;
+    border:2px solid #ccc;
+    margin:7px;
+    padding: 16px 10px;
+    background-color: white;
+    border-color: #4D77FF;
+    box-shadow: 0px 0px 1px 1px white;
+}
+
+#chat-box{
+    overflow-y: scroll;
+}
+
+
+#out {
+    background-color: red;
+    border-radius: 5px;
+}
+#out:hover {
+    opacity: 0.7;
+}
+#send-btn {
+    width: 150px;
+    font-size: 18px;
+    background-color: #4D77FF;
+  
+    border-radius: 6%;
+    font-weight: 800;
+    color:white;
+}
+#send-btn:hover {
+    opacity: 0.7;
+}

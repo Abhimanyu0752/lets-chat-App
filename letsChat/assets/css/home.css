@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+body {
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+
+    font-family: 'League Spartan', sans-serif !important;
+    background-color: #EEEEEE;
+}
+nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    height:80px !important;
+    font-size: 24px !important;
+    width:100vw !important;
+    padding:20px !important;
+    background-color: 4D77FF;
+  
+}
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+#left-nav{
+    font-size: 35px;
+}
+#right-nav {
+    display: flex;
+    margin-right: 30px;
+    width: 150px;
+    justify-content: space-between;
+}
+.body{
+    margin: 200 auto;
+    margin-top: 150px;
+    height:300px;
+    width:50%;
+    text-align: center;
+}
+span{
+  color: #4D77FF;
+  font-family: 'Pacifico', cursive;
+}
+h1 {
+    font-size:50px;
+}
+p {
+    font-size: 24px;
+}
